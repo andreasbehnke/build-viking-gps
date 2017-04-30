@@ -1,0 +1,25 @@
+---
+
+  - name: install dependencies
+    become: yes
+    apt: name={{ item }} state=latest
+    with_items:
+     - intltool
+     - gtk-doc-tools
+     - gnome-doc-utils
+     - dh-autoreconf
+     - autopoint
+     # library header files:
+     - libglib2.0-dev
+     - libcurl4-gnutls-dev
+     - libgtk2.0-dev
+     - libgexiv2-dev
+     - libgps-dev
+     - libbz2-dev
+     - libmagic-dev
+     - libsqlite3-dev
+     - libzip-dev
+     - nettle-dev
+     - libmapnik-dev
+     - libstdc++-6-dev
+     - libicu-dev

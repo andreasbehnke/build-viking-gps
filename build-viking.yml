@@ -1,0 +1,12 @@
+---
+ - hosts: all
+   pre_tasks:
+
+   - name: update packages
+     become: yes
+     apt: update_cache='yes'
+
+   roles:
+
+   - install-dependencies
+   #- clone-repository: https://github.com/viking-gps/viking.git
