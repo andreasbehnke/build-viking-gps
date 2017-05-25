@@ -8,5 +8,5 @@
 
    roles:
 
-   - install-dependencies
+   - build-viking
    #- clone-repository: https://github.com/viking-gps/viking.git
