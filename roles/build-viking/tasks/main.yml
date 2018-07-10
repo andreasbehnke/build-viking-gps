@@ -23,3 +23,4 @@
      - libmapnik-dev
      - libstdc++-6-dev
      - libicu-dev
+     - libgeoclue-2-dev
