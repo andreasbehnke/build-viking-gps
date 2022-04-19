@@ -1,2 +1,1 @@
-# docker-build-viking
-Using docker to compile viking for ubuntu
+# Docker Container for compiling Viking-GPS
