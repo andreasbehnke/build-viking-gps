@@ -1,2 +1,2 @@
-# ansible-build-viking
-Playbook prepares ubuntu based workstation for building viking
+# docker-build-viking
+Using docker to compile viking for ubuntu
